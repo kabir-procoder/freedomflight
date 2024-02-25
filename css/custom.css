@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+::before,::after
+{
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 1140px;
+    width: 100%;
+}
+.navigation-area img
+{
+    width: 281px;
+}
+.herosection
+{
+    background:linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.233)), url('../images/Bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+.hero-content
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.hero-content h1
+{
+    font-size: 60px;
+    line-height: 1em;
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+}
+.hero-content p
+{
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25em;
+}
+.hero-content a
+{
+    display: inline-block;
+    font-family: "Roboto",Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #feb81c;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 12px 30px;
+}
+.hero-content a:hover
+{
+    background-color: #feb81c;
+    color: #FFFFFF;
+}
+@media(max-width: 768px) 
+{
+    .herosection
+{
+    height: 100vh;
+}
+.hero-content
+{
+    height: 100vh;
+}
+}
+/* populardestination */
+.section-title h1
+{
+    color: #000;
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    font-size: 2rem;
+}
+.img-box
+{
+    position: relative;
+    transition: 0.3s ease;
+}
+.img-box img
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-box:hover
+{
+    transform: scale(1.05);
+}
+.imgbox-content
+{
+    position: absolute;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+}
+.imgbox-content p
+{
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto",Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 1em;
+}
+.pvc
+{
+    border-bottom: 1px solid #0000001A;
+}
+/* Popular Airline Routes */
+.Airlines-main
+{
+    border-bottom: 1px solid #0000001A;
+}
+.airline-imgbox img
+{
+    height: 144px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    object-fit: cover;
+}
+.imgbox-per-content
+{
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.airlineroute
+{
+    border: 1px solid #0000001A;
+    border-radius: 5px;
+}
+.imgbox-per-content h5
+{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 34px;
+}
+.imgbox-per-content p
+{
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 10px;
+    color: #FFFFFF;
+}
+.imgcontent-head
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px 5px 16px;
+}
+.imgcontent-head h5
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #A7A7A7;
+    margin: 0;
+}
+.imgcontent-head p
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #A7A7A7;
+    margin: 0;
+}
+.imgcontent-head p i
+{
+    margin-right: 5px;
+    font-size: 12px;
+}
+.listing
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.listing:hover
+{
+    background: #0084ff31;
+}
+.listing p
+{
+    margin: 0;
+    font-size: 14px;
+    color: #000;
+}
+.listing span
+{
+    font-size: 15px;
+    font-weight: bolder;
+}
+/* Guide Section */
+.guide-headline
+{
+    text-align: center;
+}
+.guide-headline h1
+{
+    color: #333;
+    font-size: 43px;
+    line-height: 1.25em;
+    font-weight: bold;
+}
+.guide-headline p
+{
+    color: #333;
+    line-height: 1.2em;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.elementskit-post-image-card
+{
+    background-image: linear-gradient(90deg,#ff8d59 57%,#ff4864 100%);
+    padding: 20px 28px;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.elementskit-entry-header img
+{
+    width: 100%;
+    top: -40px;
+    position: relative;
+    border-radius: 5px;
+    transition: 0.4s ease-in-out;
+}
+.elementskit-post-image-card:hover img
+{
+    transform: scale(1.02);
+    overflow: hidden;
+}
+.entry-title a
+{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+    position: relative;
+    top: -25px;
+    line-height: 25px !important;
+}
+.gude-btn
+{
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+.gude-btn a 
+{
+    color: #fff;
+    background-color: #ff7420;
+    box-shadow: 0px 10px 24px 6px rgba(0,0,0,.15);
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.gude-btn a:hover
+{
+    color: #fff;
+    background-color: #ff7420;
+}
+/* Contact us */
+.contact-us
+{
+    background-color: #003354;
+}
+.contact-content h5
+{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 29px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.25em;
+}
+.contact-content p
+{
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.contact-content span
+{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.copyrightarea 
+{
+    color: #FFFFFF;
+    background-color: #54595f;
+}
